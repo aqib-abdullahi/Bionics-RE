@@ -24,4 +24,5 @@ function moveInDOM(node) {
         moveInDOM(child);
     });
 }
+
 moveInDOM(document.body);
